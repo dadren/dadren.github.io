@@ -1,0 +1,8 @@
+AppSettings	application.html#AppSettings	application : AppSettings	
+AppObj	application.html#AppObj	application : AppObj	
+App	application.html#App	application : App	
+getLogicalSize	application.html#getLogicalSize,App	application : getLogicalSize(app: App): Size	
+newApp	application.html#newApp,AppSettings	application : newApp(settings: AppSettings): App	
+newApp	application.html#newApp,int,int,string,float	application : newApp(width, height: int; title: string; scale = 1.0&#x27;f64; vsync = true; accelerated = true): App	
+clear	application.html#clear,App,uint8,uint8,uint8	application : clear(app: App; r, g, b: uint8)	
+run	application.html#run,App,Scene	application : run(app: App; first_scene: Scene)	

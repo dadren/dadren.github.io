@@ -1,0 +1,3 @@
+Clock	clock.html#Clock	clock : Clock	
+newClock	clock.html#newClock,float	clock : newClock(step: float): Clock	
+tick	clock.html#tick,Clock	clock : tick(clock: Clock)	

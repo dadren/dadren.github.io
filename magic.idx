@@ -1,0 +1,7 @@
+to_object_name	magic.html#to_object_name,string	magic : to_object_name(name: string): string	
+to_field_name	magic.html#to_field_name,string	magic : to_field_name(name: string): string	
+to_table_name	magic.html#to_table_name,string	magic : to_table_name(name: string): string	
+to_enum_name	magic.html#to_enum_name,string	magic : to_enum_name(name: string): string	
+to_value_name	magic.html#to_value_name,string,string	magic : to_value_name(a, b: string): string	
+to_manager_name	magic.html#to_manager_name,string	magic : to_manager_name(name: string): string	
+aggregate	magic.html#aggregate.m,expr,expr	magic : aggregate(type_name: expr; component_list: expr): stmt	

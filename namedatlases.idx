@@ -1,0 +1,10 @@
+Overview	namedatlases.html#overview	 Overview	
+NamedAtlasInfo	namedatlases.html#NamedAtlasInfo	namedatlases : NamedAtlasInfo	
+NamedAtlas	namedatlases.html#NamedAtlas	namedatlases : NamedAtlas	
+NamedAtlasManager	namedatlases.html#NamedAtlasManager	namedatlases : NamedAtlasManager	
+newNamedAtlasManager	namedatlases.html#newNamedAtlasManager,WindowPtr,RendererPtr	namedatlases : newNamedAtlasManager(window: WindowPtr; display: RendererPtr): NamedAtlasManager	
+load	namedatlases.html#load,NamedAtlasManager,string,string,int,int,seq[string],string,seq[string]	namedatlases : load(tmm: NamedAtlasManager; name, filename: string; width, height: int;\n     names: seq[string]; description: string = nil; authors: seq[string] = nil): NamedAtlas	
+loadPack	namedatlases.html#loadPack,NamedAtlasManager,string	namedatlases : loadPack(tsm: NamedAtlasManager; filename: string)	
+get	namedatlases.html#get,NamedAtlasManager,string	namedatlases : get(tmm: NamedAtlasManager; name: string): NamedAtlas	
+getNameIndex	namedatlases.html#getNameIndex,NamedAtlas,string	namedatlases : getNameIndex(atlas: NamedAtlas; name: string): int	
+render	namedatlases.html#render,RendererPtr,NamedAtlas,string,int,int	namedatlases : render(display: RendererPtr; atlas: NamedAtlas; name: string; dx, dy: int)	

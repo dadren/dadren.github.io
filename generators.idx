@@ -1,0 +1,11 @@
+GeneratorType	generators.html#GeneratorType	generators : GeneratorType	
+Generator	generators.html#Generator	generators : Generator	
+`()`	generators.html#(),Generator[T],int,int	generators : `()`[T](gen: Generator[T]; x, y: int; noise = - 1.0&#x27;f64): T	
+SimpleGenerator	generators.html#SimpleGenerator,proc(int,int)	generators : SimpleGenerator[T](cb: proc (x, y: int): T): Generator[T]	
+NoiseGenerator	generators.html#NoiseGenerator,proc(int,int,float)	generators : NoiseGenerator[T](cb: proc (x, y: int; noise: float): T): Generator[T]	
+newStaticGenerator	generators.html#newStaticGenerator,T	generators : newStaticGenerator[T](value: T): Generator[T]	
+newRandomGenerator	generators.html#newRandomGenerator,seq[Generator[T]]	generators : newRandomGenerator[T](values: seq[Generator[T]]): Generator[T]	
+newWeightedGenerator	generators.html#newWeightedGenerator,seq[]	generators : newWeightedGenerator[T](choices: seq[(int, Generator[T])]): Generator[T]	
+newBitonalGenerator	generators.html#newBitonalGenerator,Generator[T],Generator[T],float	generators : newBitonalGenerator[T](a, b: Generator[T]; scale = 1.0&#x27;f64): Generator[T]	
+newRangedGenerator	generators.html#newRangedGenerator,seq[],float,float	generators : newRangedGenerator[T](ranges: seq[(int, Generator[T])]; scale = 1.0&#x27;f64;\n                      jitter = 0.0&#x27;f64; child = false): Generator[T]	
+newBillowGenerator	generators.html#newBillowGenerator,seq[Generator[T]],float,float	generators : newBillowGenerator[T](generators: seq[Generator[T]]; scale = 1.0&#x27;f64;\n                      jitter = 0.0&#x27;f64): Generator[T]	

@@ -1,0 +1,9 @@
+Scene	scenes.html#Scene	scenes : Scene	
+SceneManager	scenes.html#SceneManager	scenes : SceneManager	
+enter	scenes.html#enter.e,Scene	scenes : enter(self: Scene)	
+leave	scenes.html#leave.e,Scene	scenes : leave(self: Scene)	
+handle	scenes.html#handle.e,Scene,Event	scenes : handle(self: Scene; event: Event)	
+update	scenes.html#update.e,Scene,float,float	scenes : update(self: Scene; t, dt: float)	
+draw	scenes.html#draw.e,Scene	scenes : draw(self: Scene)	
+set_scene	scenes.html#set_scene,SceneManager,Scene	scenes : set_scene(sm: SceneManager; scene: Scene)	
+newSceneManager	scenes.html#newSceneManager,Scene	scenes : newSceneManager(first_scene: Scene = nil): SceneManager	

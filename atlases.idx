@@ -1,0 +1,10 @@
+Overview	atlases.html#overview	 Overview	
+AtlasInfo	atlases.html#AtlasInfo	atlases : AtlasInfo	
+Atlas	atlases.html#Atlas	atlases : Atlas	
+AtlasManager	atlases.html#AtlasManager	atlases : AtlasManager	
+newAtlasManager	atlases.html#newAtlasManager,WindowPtr,RendererPtr	atlases : newAtlasManager(window: WindowPtr; display: RendererPtr): AtlasManager	
+load	atlases.html#load,AtlasManager,string,string,int,int,string,seq[string]	atlases : load(am: AtlasManager; name, filename: string; width, height: int;\n     description: string = nil; authors: seq[string] = nil): Atlas	
+loadPack	atlases.html#loadPack,AtlasManager,string	atlases : loadPack(am: AtlasManager; filename: string)	
+get	atlases.html#get,AtlasManager,string	atlases : get(am: AtlasManager; name: string): Atlas	
+render	atlases.html#render,RendererPtr,Atlas,int,int,int,int	atlases : render(display: RendererPtr; atlas: Atlas; rx, ry, dx, dy: int)	
+render	atlases.html#render,RendererPtr,Atlas,int,int,int	atlases : render(display: RendererPtr; atlas: Atlas; n, dx, dy: int)	

@@ -1,0 +1,11 @@
+Point	utils.html#Point	utils : Point	
+Size	utils.html#Size	utils : Size	
+Region	utils.html#Region	utils : Region	
+Resolution	utils.html#Resolution	utils : Resolution	
+cint2int	utils.html#cint2int.c,cint	utils : cint2int(x: cint): int	
+int2cint	utils.html#int2cint.c,int	utils : int2cint(x: int): cint	
+uint2int	utils.html#uint2int.c,uint	utils : uint2int(x: uint): int	
+int2uint	utils.html#int2uint.c,int	utils : int2uint(x: int): uint	
+weighted_choice	utils.html#weighted_choice,seq[],MersenneTwister	utils : weighted_choice[T](options: seq[(int, T)];\n                   rng: var MersenneTwister = mersenneTwisterInst): T	
+weighted_selection	utils.html#weighted_selection,seq[],float	utils : weighted_selection[T](options: seq[(int, T)]; selection: float): T	
+merge	utils.html#merge,Table[K,V],Table[K,V]	utils : merge[K, V](d1: var Table[K, V]; d2: Table[K, V])	

@@ -1,0 +1,8 @@
+Overview	tilesets.html#overview	 Overview	
+TilesetAtlasInfo	tilesets.html#TilesetAtlasInfo	tilesets : TilesetAtlasInfo	
+Tileset	tilesets.html#Tileset	tilesets : Tileset	
+TilesetManager	tilesets.html#TilesetManager	tilesets : TilesetManager	
+newTilesetManager	tilesets.html#newTilesetManager,WindowPtr,RendererPtr	tilesets : newTilesetManager(window: WindowPtr; display: RendererPtr): TilesetManager	
+loadPack	tilesets.html#loadPack,TilesetManager,string	tilesets : loadPack(tm: TilesetManager; filename: string)	
+get	tilesets.html#get,TilesetManager,	tilesets : get[](tm: TilesetManager; name): Tileset	
+render	tilesets.html#render,RendererPtr,Tileset,string,int,int	tilesets : render(display: RendererPtr; tileset: Tileset; name: string; dx, dy: int)	

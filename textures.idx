@@ -1,0 +1,12 @@
+Overview	textures.html#overview	 Overview	
+TextureInfo	textures.html#TextureInfo	textures : TextureInfo	
+Texture	textures.html#Texture	textures : Texture	
+TextureManager	textures.html#TextureManager	textures : TextureManager	
+destroy	textures.html#destroy,TextureManager	textures : destroy(tm: TextureManager)	
+newTextureManager	textures.html#newTextureManager,WindowPtr,RendererPtr	textures : newTextureManager(window: WindowPtr; display: RendererPtr): TextureManager	
+contains	textures.html#contains,TextureManager,string	textures : contains(tm: TextureManager; name: string): bool	
+load	textures.html#load,TextureManager,string,string,string,seq[string]	textures : load(tm: TextureManager; name, filename: string; description: string = nil;\n     authors: seq[string] = nil): Texture	
+loadPack	textures.html#loadPack,TextureManager,string	textures : loadPack(tm: TextureManager; filename: string)	
+get	textures.html#get,TextureManager,string	textures : get(tm: TextureManager; name: string): Texture	
+render	textures.html#render,RendererPtr,Texture,int,int	textures : render(display: RendererPtr; texture: Texture; x, y: int)	
+render	textures.html#render,RendererPtr,Texture,int,int,int,int,int,int	textures : render(display: RendererPtr; texture: Texture; sx, sy, dx, dy, width, height: int)	

@@ -1,0 +1,4 @@
+DadrenError	exceptions.html#DadrenError	exceptions : DadrenError	
+ResourceError	exceptions.html#ResourceError	exceptions : ResourceError	
+InvalidResourceError	exceptions.html#InvalidResourceError	exceptions : InvalidResourceError	
+NoSuchResourceError	exceptions.html#NoSuchResourceError	exceptions : NoSuchResourceError	

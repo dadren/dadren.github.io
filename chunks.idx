@@ -1,0 +1,4 @@
+Tile	chunks.html#Tile	chunks : Tile	
+Chunk	chunks.html#Chunk	chunks : Chunk	
+tile_name	chunks.html#tile_name.e,Tile	chunks : tile_name(t: Tile): string	
+newChunk	chunks.html#newChunk,	chunks : newChunk(): Chunk	

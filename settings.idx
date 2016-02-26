@@ -1,0 +1,1 @@
+loadSettings	settings.html#loadSettings,string	settings : loadSettings[T](filename: string): T	

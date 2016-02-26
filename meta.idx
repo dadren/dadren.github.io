@@ -1,0 +1,34 @@
+Name	meta.html#Name	meta : Name	
+TypeName	meta.html#TypeName	meta : TypeName	
+TypeDesc	meta.html#TypeDesc	meta : TypeDesc	
+Field	meta.html#Field	meta : Field	
+newName	meta.html#newName,string,bool	meta : newName(value: string; exported: bool = false): Name	
+newTypeName	meta.html#newTypeName,Name,seq[TypeDesc]	meta : newTypeName(name: Name; parameters: seq[TypeDesc]): TypeName	
+newTypeName	meta.html#newTypeName,Name,seq[TypeName]	meta : newTypeName(name: Name; parameters: seq[TypeName]): TypeName	
+newTypeName	meta.html#newTypeName,Name	meta : newTypeName(name: Name): TypeName	
+newTypeName	meta.html#newTypeName,string	meta : newTypeName(name: string): TypeName	
+newTypeDesc	meta.html#newTypeDesc,TypeName,bool	meta : newTypeDesc(type_name: TypeName; is_ref: bool = false): TypeDesc	
+newTypeDesc	meta.html#newTypeDesc,string,bool	meta : newTypeDesc(type_name: string; is_ref: bool = false): TypeDesc	
+newTypeDesc	meta.html#newTypeDesc,seq[Field],bool	meta : newTypeDesc(identifiers: seq[Field]; is_ref: bool = false): TypeDesc	
+newSeqDesc	meta.html#newSeqDesc,TypeName	meta : newSeqDesc(type_name: TypeName): TypeDesc	
+newSeqDesc	meta.html#newSeqDesc,string	meta : newSeqDesc(type_name: string): TypeDesc	
+newField	meta.html#newField,Name,TypeDesc	meta : newField(name: Name; type_desc: TypeDesc): Field	
+newField	meta.html#newField,string,string,bool	meta : newField(name: string; type_name: string; is_ref: bool = false): Field	
+newIdentifier	meta.html#newIdentifier,Name,ref.TypeDesc,ref.NimNode	meta : newIdentifier(name: Name; type_desc: ref TypeDesc = nil; default: ref NimNode = nil): Identifier	
+newAliasDesc	meta.html#newAliasDesc,TypeDesc	meta : newAliasDesc(alias: TypeDesc): Desc	
+newTupleDesc	meta.html#newTupleDesc,seq[Field]	meta : newTupleDesc(fields: seq[Field]): Desc	
+newStructDesc	meta.html#newStructDesc,seq[Field]	meta : newStructDesc(fields: seq[Field]): Desc	
+newInheritedDesc	meta.html#newInheritedDesc,seq[Field],TypeName	meta : newInheritedDesc(fields: seq[Field]; inherits: TypeName): Desc	
+newVariantDesc	meta.html#newVariantDesc,Field,Table[Name,seq[Field]]	meta : newVariantDesc(discriminator: Field; variants: Table[Name, seq[Field]]): Desc	
+newEnumDesc	meta.html#newEnumDesc,seq[Name]	meta : newEnumDesc(values: seq[Name]): Desc	
+newTypeDef	meta.html#newTypeDef,TypeName,Desc,bool	meta : newTypeDef(type_name: TypeName; desc: Desc; is_ref: bool = false): TypeDef	
+exported	meta.html#exported,string	meta : exported(name: string): Name	
+toName	meta.html#toName.c,string	meta : toName(s: string): Name	
+render	meta.html#render,Name	meta : render(name: Name): NimNode	
+render	meta.html#render,TypeName	meta : render(type_name: TypeName): NimNode	
+asTuple	meta.html#asTuple,TypeName	meta : asTuple(type_name: TypeName): tuple[name, params: NimNode]	
+render	meta.html#render,Field	meta : render(field: Field): NimNode	
+render	meta.html#render,TypeDesc	meta : render(type_desc: TypeDesc): NimNode	
+render	meta.html#render,Identifier	meta : render(identifier: Identifier): NimNode	
+render	meta.html#render,Desc	meta : render(desc: Desc): NimNode	
+render	meta.html#render,TypeDef	meta : render(typedef: TypeDef): NimNode	

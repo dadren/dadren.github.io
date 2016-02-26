@@ -1,0 +1,5 @@
+Camera	camera.html#Camera	camera : Camera	
+newCamera	camera.html#newCamera,Point,Size,Tileset	camera : newCamera[T](position: Point; size: Size; tileset: Tileset): Camera[T]	
+attach	camera.html#attach,Camera[T],Tilemap[T],Point	camera : attach[T](camera: Camera[T]; map: Tilemap[T]; focus: Point = (0, 0))	
+render	camera.html#render,Camera[T],RendererPtr	camera : render[T](camera: Camera[T]; display: RendererPtr)	
+move	camera.html#move,Camera[T],int,int	camera : move[T](camera: Camera[T]; x, y: int)	

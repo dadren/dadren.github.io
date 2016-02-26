@@ -1,0 +1,5 @@
+Tilemap	tilemap.html#Tilemap	tilemap : Tilemap	
+newTilemap	tilemap.html#newTilemap,Size,Generator[T]	tilemap : newTilemap[T](chunk_size: Size; generator: Generator[T]): Tilemap[T]	
+makeChunk	tilemap.html#makeChunk,Tilemap[T],Point,Size	tilemap : makeChunk[T](map: Tilemap[T]; pos: Point; size: Size): Chunk	
+chunkPosition	tilemap.html#chunkPosition,Tilemap,int,int	tilemap : chunkPosition[Tilemap](tm: Tilemap; x, y: int): Point	
+getTile	tilemap.html#getTile,Tilemap,int,int	tilemap : getTile[Tilemap](tm: Tilemap; x, y: int): Tile	

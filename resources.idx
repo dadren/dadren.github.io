@@ -1,0 +1,3 @@
+ResourceManager	resources.html#ResourceManager	resources : ResourceManager	
+newResourceManager	resources.html#newResourceManager,WindowPtr,RendererPtr	resources : newResourceManager(window: WindowPtr; display: RendererPtr): ResourceManager	
+destroy	resources.html#destroy,ResourceManager	resources : destroy(rm: ResourceManager)	
